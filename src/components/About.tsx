@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-card/30">
+    <section id="about" className="py-20 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -42,7 +42,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {features.map((feature, index) => (
-            <Card key={index} className="bg-card border-border hover:border-primary/30 transition-all duration-300 group">
+            <Card key={index} className="bg-card border-border hover:border-primary/50 hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-6 text-center">
                 <div className="mb-4 flex justify-center">
                   <div className="p-3 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors">

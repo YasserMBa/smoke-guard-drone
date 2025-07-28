@@ -59,7 +59,7 @@ const Team = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="bg-card border-border hover:border-primary/30 transition-all duration-300 group hover:shadow-lg">
+            <Card key={index} className="bg-card border-border hover:border-primary/50 hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-6 text-center">
                 <div className="mb-6 flex justify-center">
                   <Avatar className="w-20 h-20 ring-2 ring-primary/20 group-hover:ring-primary/40 transition-all">
