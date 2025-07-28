@@ -29,7 +29,7 @@ const Header = () => {
           </nav>
           
           <div className="flex items-center">
-            <Zap className="w-6 h-6 text-primary animate-float" />
+            <Zap className="w-6 h-6 text-primary animate-flame" />
           </div>
         </div>
       </div>

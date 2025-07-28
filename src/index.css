@@ -8,42 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 26% 14%;
-    --foreground: 210 40% 98%;
+    --background: 15 8% 8%;
+    --foreground: 20 14% 95%;
 
-    --card: 224 23% 16%;
-    --card-foreground: 210 40% 98%;
+    --card: 15 10% 12%;
+    --card-foreground: 20 14% 95%;
 
-    --popover: 224 23% 16%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 15 10% 12%;
+    --popover-foreground: 20 14% 95%;
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 220 26% 14%;
+    --primary: 14 100% 57%;
+    --primary-foreground: 15 8% 8%;
 
-    --secondary: 216 34% 17%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 20 43% 11%;
+    --secondary-foreground: 20 14% 95%;
 
-    --muted: 216 34% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 20 43% 11%;
+    --muted-foreground: 25 20% 70%;
 
     --accent: 25 95% 53%;
-    --accent-foreground: 220 26% 14%;
+    --accent-foreground: 15 8% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 32% 25%;
-    --input: 217 32% 25%;
-    --ring: 217 91% 60%;
+    --border: 20 30% 20%;
+    --input: 20 30% 20%;
+    --ring: 14 100% 57%;
 
     --radius: 0.75rem;
     
-    /* Custom design tokens for drone project */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(220 90% 70%));
-    --gradient-accent: linear-gradient(135deg, hsl(25 95% 53%), hsl(35 90% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 26% 14%) 0%, hsl(217 32% 18%) 50%, hsl(220 26% 14%) 100%);
-    --shadow-glow: 0 0 30px hsl(217 91% 60% / 0.3);
+    /* Custom design tokens for fire-themed drone project */
+    --gradient-primary: linear-gradient(135deg, hsl(14 100% 57%), hsl(25 95% 53%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 95% 53%), hsl(39 100% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(15 8% 8%) 0%, hsl(20 15% 15%) 50%, hsl(15 8% 8%) 100%);
+    --gradient-fire: linear-gradient(135deg, hsl(0 100% 30%), hsl(14 100% 57%), hsl(25 95% 53%), hsl(39 100% 50%));
+    --shadow-glow: 0 0 30px hsl(14 100% 57% / 0.4);
     --shadow-accent: 0 0 20px hsl(25 95% 53% / 0.4);
+    --shadow-fire: 0 0 40px hsl(14 100% 57% / 0.6);
 
     --sidebar-background: 0 0% 98%;
 
@@ -107,6 +109,6 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-cairo;
   }
 }

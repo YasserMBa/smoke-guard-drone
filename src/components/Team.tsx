@@ -48,7 +48,7 @@ const Team = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-fire bg-clip-text text-transparent">
               فريق العمل
             </span>
           </h2>
