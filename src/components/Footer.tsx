@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© 2024 SmokeSense AI. جميع الحقوق محفوظة.</p>
+          <p>© 2025 SmokeSense AI. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
