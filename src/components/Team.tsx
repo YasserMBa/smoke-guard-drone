@@ -6,40 +6,34 @@ const Team = () => {
   // يمكن تحديث هذه البيانات بأسماء الأعضاء الحقيقية
   const teamMembers = [
     {
-      name: "أحمد محمد",
-      role: "مطور الذكاء الاصطناعي",
-      initials: "أم",
+      name: "ياسر بايونس",
+      role: "هندسة البرمجيات",
+      initials: "يب",
       color: "bg-primary"
     },
     {
-      name: "فاطمة العلي", 
-      role: "مطورة الواجهات",
-      initials: "فع",
+      name: "نواف الربيعة", 
+      role: "نظم المعلومات",
+      initials: "نر",
       color: "bg-accent"
     },
     {
-      name: "سارة أحمد",
-      role: "مهندسة الطائرات",
-      initials: "سأ", 
+      name: "فهد العتيبي",
+      role: "الأمن السيبراني",
+      initials: "فع", 
       color: "bg-primary"
     },
     {
-      name: "محمد حسن",
-      role: "مطور النظم",
-      initials: "مح",
+      name: "نواف الهشام",
+      role: "هندسة الحاسب",
+      initials: "نه",
       color: "bg-accent"
     },
     {
-      name: "نور الدين",
-      role: "مختص الرؤية الحاسوبية",
-      initials: "ند",
+      name: "صالح السليمان",
+      role: "علوم الحاسب",
+      initials: "صس",
       color: "bg-primary"
-    },
-    {
-      name: "ليلى محمود",
-      role: "مديرة المشروع",
-      initials: "لم",
-      color: "bg-accent"
     }
   ];
 
