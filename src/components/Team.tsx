@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Linkedin, Github, Mail } from "lucide-react";
+import defaultAvatar from "@/assets/default-avatar.png";
 
 const Team = () => {
   // يمكن تحديث هذه البيانات بأسماء الأعضاء الحقيقية
@@ -57,6 +58,7 @@ const Team = () => {
               <CardContent className="p-6 text-center">
                 <div className="mb-6 flex justify-center">
                   <Avatar className="w-20 h-20 ring-2 ring-primary/20 group-hover:ring-primary/40 transition-all">
+                    <AvatarImage src={defaultAvatar} alt={member.name} />
                     <AvatarFallback className={`${member.color} text-white text-lg font-bold`}>
                       {member.initials}
                     </AvatarFallback>
